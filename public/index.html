@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+        }
+
+        form {
+            max-width: 66ch;
+            width: fit-content;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+    
+</head>
+<body>
+    <form action="/chat.html">
+        <h1>Join</h1>
+        <label for="username"></label>
+        <input type="text" name="username" placeholder="username" required>
+        <label for="room"></label>
+        <input type="text" name="room" placeholder="room" required>
+        <button>join</button>
+    </form>
+   
+</body>
+</html>
+
